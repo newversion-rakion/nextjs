@@ -6,10 +6,16 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Login</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>Index</Layout>
+      <Layout>
+        <div className="loginPage">
+          <div className="container">
+            Login page
+          </div>
+        </div>
+      </Layout>
     </div>
   )
 }
